@@ -30,7 +30,7 @@ int main(int argc, char** argv) {
     auto startLoading = high_resolution_clock::now();
     cout << "Cargando Imagen..." << endl;
 
-    Mat image = imread(inputImageName, IMREAD_COLOR);
+    Mat image = imread("20231129-110000234_id40115361.png", IMREAD_COLOR);
 
     if (image.empty()) {
         cout << "Error al cargar la imagen." << endl;
